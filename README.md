@@ -46,3 +46,23 @@ terraform validate
 terraform plan
 terraform apply
 terraform destroy
+
+## Architecture Diagram
+
+![Terraform Sports Web Server Architecture](diagrams/terraform-architecture.png)
+
+This Terraform project provisions the complete AWS infrastructure for a public sports web server, including a custom VPC, public subnet, Internet Gateway, route table, security group, and Amazon EC2 instance running Apache.
+
+---
+
+## Project Results
+
+✅ Successfully provisioned AWS infrastructure using Terraform
+
+✅ Deployed an Apache web server on Amazon EC2
+
+✅ Verified public website accessibility
+
+✅ Destroyed infrastructure using `terraform destroy` to eliminate ongoing AWS costs
+
+✅ Stored infrastructure as version-controlled code in GitHub
